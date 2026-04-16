@@ -1,5 +1,1 @@
-{
-  "extends": [
-    "development"
-  ]
-}
+{"extends":["development"],"hints":{"axe/aria":"off","axe/best-practices":"error","axe/color-contrast":"error","axe/forms":"error","axe/name-role-value":"error","axe/parsing":"error","axe/wcag2-aa":"error","axe/wcag2-aaa":"warning","axe/wcag21-aa":"error","axe/wcag21-aaa":"warning","button-type":"error","charset-validation":"error","create-element-array":"error","disown-opener":"warning","highest-available-document-mode":"error","html-has-lang":"error","html-validation":"error","meta-charset-utf-8":"error","no-caret-placement":"error","no-html-only-tags":"error","no-inline-styles":"warning","no-protocol-relative-urls":"warning","no-unknown-domain":"warning","pixel-image-replacement":"error","valid-content-type":"error","validate-set-cookie-header":"error","x-content-type-options":"error"},"formatters":["stylish"],"timeout":60000}
