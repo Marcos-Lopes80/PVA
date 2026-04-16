@@ -1,0 +1,26 @@
+.error {
+    color: red;
+    font-weight: bold;
+    background-color: #ffe6e6;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.warning {
+    color: orange;
+    font-weight: bold;
+    background-color: #fff3cd;
+    border: 1px solid orange;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    background-color: #d4edda;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 5px;
+}
