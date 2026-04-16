@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PVA SPED Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>PVA SPED - Validação Interativa</h1>
+    </header>
+    <main>
+        <section id="upload-section">
+            <input type="file" id="file-input" accept=".txt">
+            <button id="process-btn">Processar SPED</button>
+        </section>
+        <section id="dashboard">
+            <div id="status">
+                <h2>Status de Validação</h2>
+                <div id="status-indicator"></div>
+            </div>
+            <div id="visualizations">
+                <h2>Visualizações</h2>
+                <canvas id="blocks-chart"></canvas>
+                <canvas id="errors-chart"></canvas>
+            </div>
+            <div id="suggestions">
+                <h2>Sugestões da IA</h2>
+                <ul id="suggestions-list"></ul>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
