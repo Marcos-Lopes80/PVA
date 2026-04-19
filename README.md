@@ -6,7 +6,7 @@ Um aplicativo web interativo para validação de arquivos SPED (Sistema Público
 
 - Upload de arquivos SPED (.txt)
 - Dashboard com status de validação:
-  - **Vermelho**: Erros críticos
+  - **Vermelho**: Erros críticos com sugestões de IA
   - **Amarelo**: Avisos com sugestões de IA
   - **Verde**: Validado
 - Visualizações gráficas dos blocos e status
